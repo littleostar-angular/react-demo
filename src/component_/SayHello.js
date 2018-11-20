@@ -12,7 +12,7 @@ class SayHello extends Component { // 类写法
 
   render() { // render() 绘制方法, 绘制下方return()返回的JSX组件
 
-    // <Hello props: 声明一个属性, 传递至Hello组件
+    // <Hello props: 声明一个属性, 传递至Hello组件 (这里称Hello为宿主)
     return ( // return 返回的就是一个JSX, 一个组件
       <div>
         <Hello sayName={this.state.showName}/>
