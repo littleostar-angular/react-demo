@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Hello from "./Hello";
 
-class SayHello extends Component {
+class SayHello extends Component { // 类写法
 
   constructor() { // 构造函数, 只用来初始化值
     super();
@@ -12,6 +12,7 @@ class SayHello extends Component {
 
   render() { // render() 绘制方法, 绘制下方return()返回的JSX组件
 
+    // <Hello props: 声明一个属性, 传递至Hello组件
     return ( // return 返回的就是一个JSX, 一个组件
       <div>
         <Hello sayName={this.state.showName}/>
@@ -24,4 +25,4 @@ class SayHello extends Component {
 
 }
 
-export default SayHello;
+export default SayHello; // 导出供其他文件使用

@@ -43,4 +43,4 @@ class AppRouter extends Component {
       </Router>);
   }
 }
-export default AppRouter;
+export default AppRouter; // 导出供其他文件使用

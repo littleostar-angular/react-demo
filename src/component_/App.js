@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import logo from '../logo.svg';
 import './App.css';
 
+// 类写法
 class App extends Component {
-  render() {
-    return (
+
+  render() { // render() 绘制
+
+    return ( // 返回JSX组件
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -25,4 +28,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App; // 导出供其他文件使用
