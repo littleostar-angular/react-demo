@@ -12,7 +12,7 @@ class AppRouter extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/react-demo">
         <div>
           <nav>
             <ul>
