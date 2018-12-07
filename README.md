@@ -3,38 +3,38 @@
 
 ---
 
-#### 当前项目已部署
- - https://littleostar-angular.github.io/react-demo/
+#### deployed website
+ - https://littleostar-react.github.io/react-demo/
 
-#### react官方网站
+#### react
  - https://reactjs.org/
  - https://facebook.github.io/create-react-app/
  - https://reacttraining.com/react-router/web
 
-#### hello wrold, 组件的三种写法
+#### hello wrold, component of 3 ways
 
 ```
 import React from 'react';
 ```
-// 第一种写法, function省略写法
+// 1, function less
 ```
 export default ({name}) => <h1>Hello {name}!</h1>;
 ```
-// 第二种写法, function写法
+// 2, function
 ```
 export default function({ name }) {
   return <h1>Hello {name}!</h1>
 };
 ```
-// 第三种写法, 类写法
+// 3, class
 ```
-class Hello extends React.Component { // --> SayHello.js 第15行被使用
+class Hello extends React.Component { // --> SayHello.js 15 line be used
 
-  render() { // render() 绘制
-    const name = this.props.sayName; // 获取宿主属性"sayName"并赋值给"name"
+  render() {
+    const name = this.props.sayName; // get host prop --> "sayName" and set value to "name"
 
-    return ( // 返回JSX组件
-      <h1>Hello {name}!</h1> // {name} => 上面声明的name属性
+    return ( // return JSX component
+      <h1>Hello {name}!</h1> // {name} --> const name
     );
   }
 }
@@ -43,10 +43,10 @@ export default Hello;
 
 ---
 
-#### 存在问题
+#### exists probelm
 
  - https://littleostar-angular.github.io/react-demo/about
-   - 一刷新就404
+   - get 404
 
 ---
 
